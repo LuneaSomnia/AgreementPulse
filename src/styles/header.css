@@ -1,0 +1,13 @@
+.header-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.notification-badge {
+  position: relative;
+}
+
+.user-menu {
+  min-width: 200px;
+}
