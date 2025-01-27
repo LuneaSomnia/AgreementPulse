@@ -1,0 +1,21 @@
+.login-form {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.login-form .MuiTextField-root {
+  width: 100%;
+}
+
+.login-form button {
+  margin-top: 20px;
+}
