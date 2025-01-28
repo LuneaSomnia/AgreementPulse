@@ -1,0 +1,19 @@
+.terms-container {
+  padding: 20px;
+}
+
+.term-group {
+  margin-bottom: 24px;
+}
+
+.term-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.term-item span {
+  font-weight: 600;
+  color: #546e7a;
+}
