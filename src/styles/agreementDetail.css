@@ -1,0 +1,33 @@
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-size: 0.875rem;
+}
+
+.status-badge.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status-badge.yellow {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.status-badge.red {
+  background-color: #f44336;
+  color: white;
+}
+
+.agreement-card {
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.agreement-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
