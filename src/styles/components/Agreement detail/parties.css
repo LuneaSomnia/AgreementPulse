@@ -1,0 +1,21 @@
+.parties-container {
+  padding: 20px;
+}
+
+.party-section {
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.party-info {
+  margin-top: 12px;
+}
+
+.representative {
+  margin-top: 16px;
+  padding: 12px;
+  border-left: 3px solid #2196f3;
+  background-color: white;
+}
