@@ -1,0 +1,40 @@
+.signatures-container {
+  padding: 20px;
+}
+
+.signature-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.metric {
+  text-align: center;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.signature-entry {
+  padding: 16px;
+  margin: 8px 0;
+  border-left: 4px solid #4caf50;
+  background-color: #f8faf9;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.status.signed {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status.pending {
+  background-color: #ff9800;
+  color: white;
+}
